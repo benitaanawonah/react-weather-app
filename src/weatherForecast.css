@@ -1,0 +1,19 @@
+.WeatherForecast {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.WeatherForecast-day {
+    position: relative;
+    display: flex;
+    margin-left: 6px;
+}
+.WeatherForecat-temperature-min {
+    opacity: 0.6;
+    margin-left: 5px;
+}
+.WeatherForecat-temperature-max {
+    margin-left: -5px;
+}
