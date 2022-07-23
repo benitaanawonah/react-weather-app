@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import Weather from './weather';
 
@@ -7,17 +7,14 @@ export default function App() {
     <div class="container">
    
    <Weather defaultCity="Lagos" />
-  
-
 
    <footer>This project was coded by Benita Anawonah and is {" "}
-   <a href='https://github.com/benitaanawonah/react-weather-app' target='_blank'>
-     open-sourced on Github
-   </a>
+    <a href='https://github.com/benitaanawonah/react-weather-app' target='_blank' rel='noopener noreferrer'>
+      open-sourced on Github
+    </a>
    </footer>
     </div>
     </div>
-  
 }
 
 
